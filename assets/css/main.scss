@@ -3,10 +3,19 @@
 
 @import "{{ site.theme }}";
 
-body {
+.mytitle {
 
   font-family: 'Kirang Haerang', cursive;
 
+}
+
+.site-title {
+  font-size: 48px;
+  padding: 10px 0;
+}
+
+.footer-heading{
+  font-size: 26px;
 }
 
 h2 {
