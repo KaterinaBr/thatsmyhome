@@ -5,7 +5,7 @@ Oι κατηγορίες βρίσκονται στο _data/all_categories.yml
 Kάθε κατηγορία είναι layout:sub_category.html : δείχνει τα items της κατηγορίας.
   πχ: food.md, layout:sub_category, items: title:souvlaki
 
-Όλα τα items βρίσκονται στον φάκελο discover.
+Όλα τα items και οι κατηγορίες βρίσκονται στον φάκελο discover.
 
 Στο _config.yml υπάρχει η collection: discover: με permalink: /:collection/:path/:name
 Έτσι, το κάθε πράγμα μέσα στον φάκελο discover παίρνει το σωστό path.

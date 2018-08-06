@@ -14,11 +14,13 @@
       <div class="footer-col footer-col-3">
         {% for page in site.pages%}
           {% if page.title %}
-            <a class="page-link" href="{{ page.url | relative_url}}">{{ page.title | escape }}</a>
-            </br>
-          {% endif%}
+            {% if page.layout != "sub_category" and page.layout != "post" %}
+              <a class="page-link" href="{{ page.url | relative_url}}">{{ page.title | escape }}</a>
+              </br>
+              {% endif %}
+          {% endif %}
 
-        {%endfor%}
+        {% endfor %}
       </div>
 
     </div>
