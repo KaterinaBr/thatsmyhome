@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "Souvlaki"
-date:   2018-07-25
-categories: discover food  asd
-permalink: :categories/:title/
 ---
+
+Lalalala!
 
 There is going to be a picture.
 

@@ -1,0 +1,24 @@
+discover.md , layout: category.html : δείχνει τις κατηγορίες
+
+Oι κατηγορίες βρίσκονται στο _data/all_categories.yml
+
+Kάθε κατηγορία είναι layout:sub_category.html : δείχνει τα items της κατηγορίας.
+  πχ: food.md, layout:sub_category, items: title:souvlaki
+
+Όλα τα items βρίσκονται στον φάκελο discover.
+
+Στο _config.yml υπάρχει η collection: discover: με permalink: /:collection/:path/:name
+Έτσι, το κάθε πράγμα μέσα στον φάκελο discover παίρνει το σωστό path.
+
+---
+
+
+Για να προσθέσουμε item:
+ - το βάζουμε στον σωστό υποφάκελο <κατηγορία>, στον φάκελο discover.
+ - ανοίγουμε την <κατηγορία>.md και το γράφουμε στην λίστα με τα items.
+ - DONE!
+
+ Για να προσθέσουμε κατηγορία:
+  - την γράφουμε στο all_categories.yml
+  - φτιάχνουμε αρχείο <κατηγορία>.md στον φάκελο discover.
+  - DONE!

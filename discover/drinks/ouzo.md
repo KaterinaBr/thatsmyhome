@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "Ouzo"
-date:   2018-07-25
-categories: discover drinks alcohol
-permalink: :categories/:title/
+
 ---
 
 There is going to be a picture.

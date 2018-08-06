@@ -4,25 +4,17 @@ layout: page
 
 {{content}}
 
-<div id="archives">
-{% for category in site.categories %}
-    <div class="archive-group">
-      {% capture category_name %}{{ category | first }}{% endcapture %}
-      {% capture category_title %}{{page.title | downcase}}{% endcapture %}
-      {% if category_name == category_title %}
+<!-- <div id="discover">
+  {% for item in site.discover %}
+    <h2>{{ item.path }}</h2>
+    <p>{{ item.description }}</p>
+    <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% endfor %}
+</div> -->
 
-        <div id="#{{ category_name | slugize }}"></div>
-        <p></p>
-        <h3 class="category-head">{{ category_name }}</h3>
-        <a name="{{ category_name | slugize }}"></a>
-
-        {% for page in site.categories[category_name] %}
-          <article class="archive-item">
-            <h4><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a></h4>
-          </article>
-        {% endfor %}
-
-      {% endif %}
-    </div>
-{% endfor %}
+<div>
+  {% for c in site.data.all_categories %}
+  <!-- <p><a href="{{ c.url }}">{{ c.title }}</a></p> -->
+    <p><a href="{{ c.title | base_url }}">{{ c.title }}</a></p>
+  {% endfor %}
 </div>
