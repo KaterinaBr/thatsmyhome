@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+
+
 body {
 
   background-image: url("../img/paper_600.jpg");
@@ -67,4 +69,22 @@ a:visited {
 
 .footer-social svg{
   fill: #424242;
+}
+
+
+/* --- LAYOUT: ITEM --- */
+
+.the_img {
+  width: 100%;
+}
+
+.the_txt {
+  align-self: center;
+  text-align: right;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }

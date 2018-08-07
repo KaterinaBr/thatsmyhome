@@ -13,7 +13,7 @@
       <div class="footer-menu">
         {% for page in site.pages%}
           {% if page.title %}
-            {% if page.layout != "sub_category" and page.layout != "post" %}
+            {% if page.layout != "sub_category" and page.layout != "post" and page.layout != "item" %}
               <a class="page-link" href="{{ page.url | relative_url}}">{{ page.title | escape }}</a>
               {% endif %}
           {% endif %}

@@ -1,6 +1,7 @@
 ---
 layout: item
-title:  "Ouzo"
+title:  "Oinomelo"
+img: "/oinomelo.png"
 
 ---
 
@@ -8,4 +9,4 @@ There is going to be a picture.
 
 And a description.
 
-And then maybe some kind of rating.
+For oinomelo.
