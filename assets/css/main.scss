@@ -3,21 +3,68 @@
 
 @import "{{ site.theme }}";
 
+body {
+
+  background-image: url("../img/paper_600.jpg");
+  background-blend-mode: multiply;
+  background-color: rgba(255,255,255,1);
+}
+
+body:before {
+  // background-color: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,0.5));
+
+}
+
 .mytitle {
 
   font-family: 'Kirang Haerang', cursive;
+  color: #424242;
 
+}
+
+.mytitle:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #424242;
 }
 
 .site-title {
   font-size: 48px;
   padding: 10px 0;
 }
+/* --- FOOTER --- */
 
-.footer-heading{
+.site-footer {
+  text-align: center;
+  border: 0px;
+}
+
+.footer-heading h2{
   font-size: 26px;
 }
 
-h2 {
-  font-size: 100px ;
+.footer-menu {
+  margin-bottom: 20px;
+}
+
+.site-footer .wrapper {
+  border-top: 1px solid #2B79B2;
+  padding-top: 20px;
+}
+
+.footer-menu a {
+  padding: 0 10px;
+}
+
+.footer-social {
+  // margin-bottom: 10px;
+
+}
+
+.footer-social svg{
+  fill: #424242;
 }
