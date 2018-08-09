@@ -1,0 +1,11 @@
+<div class="d_container">
+  {% for c in site.data.all_categories %}
+    <div ="d_categories">
+      <a href="{{ c.title | base_url }}"> <img src="../../assets/img/{{c.title.img}}"></img></a>
+
+      <!-- <p><a href="{{ c.title | base_url }}">{{ c.title }}</a></p> -->
+      <p><a href="{{ base_url }}/discover/{{ c.title }}">{{ c.title }}</a></p>
+
+    </div>
+  {% endfor %}
+</div>

@@ -11,12 +11,13 @@ layout: default
 
 
   <div class="discover_landing">
-    <h1> Discover</h1>
-    {% for c in site.data.all_categories %}
-      <!-- <p><a href="{{ c.title | base_url }}">{{ c.title }}</a></p> -->
+    <h1><a href="{{base_url }}/Discover">Discover</a></h1>
+
+    {%- include show_categories.html -%}
+    <!-- {% for c in site.data.all_categories %}
       <p><a href="{{ base_url }}/discover/{{ c.title }}">{{ c.title }}</a></p>
 
-    {% endfor %}
+    {% endfor %} -->
   </div>
 
 
