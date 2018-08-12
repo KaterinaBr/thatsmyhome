@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Manifest
-permalink: /manifest/
+title: About
+permalink: /about/
 ---
 
 There will be one or two paragraphs about the site.
