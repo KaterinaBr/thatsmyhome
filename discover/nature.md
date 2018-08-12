@@ -1,13 +1,12 @@
 ---
-
 layout: sub_category
-title: Habits
-description: 'Let's do that'
+title: Nature
+description: 'wow'
 items:
- - title: ..
+ - title: ...
  - title: ...
 
 ---
 
-Habits!
+Nature!
 More categories on the go.

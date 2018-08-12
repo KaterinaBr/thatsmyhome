@@ -5,8 +5,13 @@ layout: page
 {{content}}
 
 
+<div class="i_container">
+  {% for i in page.items %}
+    <div class="i_categories">
+      <a href="{{i.title | base_url }}"><img src="../../assets/img/{{i.title.img}}"></img></a>
+      <a href="{{i.title | base_url }}">{{i.title}}</a>
+    </div>
 
-{% for i in page.items %}
-  <a href="{{i.title | base_url }}">{{i.title}}</a>
-</br>
-{% endfor %}
+  {% endfor %}
+
+</div>

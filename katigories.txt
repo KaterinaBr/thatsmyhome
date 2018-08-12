@@ -1,0 +1,29 @@
+food
+
+  - souvlaki pita & kalamaki
+  - xwriatiki salata
+
+
+Drinks
+
+  - ouzo
+  - raki
+  - tsipouro
+  - oinomelo
+  - rakomelo
+  - mastiha
+
+Sweets
+ - mastiha
+ - gluko tou koutaliou
+
+
+local products
+
+  - mastiha
+  -
+
+transport
+
+  - metro
+  - bus
