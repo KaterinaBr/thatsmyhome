@@ -10,14 +10,27 @@ layout: default
   {{ content }}
 
 
-  <div class="discover_landing">
+  <div class="discover_landing section_landing">
     <h1><a href="{{base_url }}/Discover">Discover</a></h1>
+
+    <p> Explore the local cuisine, routine and habits of Greece. </p>
 
     {%- include show_categories.html -%}
     <!-- {% for c in site.data.all_categories %}
       <p><a href="{{ base_url }}/discover/{{ c.title }}">{{ c.title }}</a></p>
 
     {% endfor %} -->
+  </div>
+
+
+  <div class="contact_landing section_landing">
+
+    <h1><a href="{{base_url }}/Contact">Contact</a></h1>
+
+    <p> Fell free to tell us anything! </p>
+
+    {%- include contact_form.html -%}
+
   </div>
 
 
