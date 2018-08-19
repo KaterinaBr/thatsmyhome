@@ -42,6 +42,11 @@ defaults:
       type: discover
     values:
       layout: page
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     permatitle: :title
 
 
 

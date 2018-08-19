@@ -5,11 +5,13 @@ layout: page
 {{content}}
 
 
-<div class="i_container">
+<div class="sub_container">
   {% for i in page.items %}
-    <div class="i_categories">
-      <a href="{{i.title | base_url }}"><img src="../../assets/img/{{i.title.img}}"></img></a>
-      <a href="{{i.title | base_url }}">{{i.title}}</a>
+    <div class="sub_categories">
+
+      <a href="{{i.title | base_url | replace:" ", "_"}}"><img src="../../assets/img/{{i.title | replace:" ", "_"}}.png"></img></a>
+      <a href="{{i.title | base_url  | replace:" ", "_"}}">{{i.title}}</a>
+
     </div>
 
   {% endfor %}
